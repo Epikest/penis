@@ -1,2 +1,2 @@
 # penis
-Penis - A daily word game
+Penis - A daily penis game
