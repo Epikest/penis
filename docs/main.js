@@ -1049,7 +1049,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
     var Za = "IN_PROGRESS",
         es = "WIN",
         as = "FAIL",
-        ss = ["PENIS"],
+        ss = ["LUCKY PENIS","FABULOUS PENIS","DAZZLING PENIS","CHARMING PENIS","LOVELY PENIS","CAREFUL PENIS"],
         ts = function(e) {
             r(t, e);
             var a = h(t);
