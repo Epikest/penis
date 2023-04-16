@@ -1,0 +1,11 @@
+bracketSameLine = false
+bracketSpacing = true
+endOfLine = "lf"
+printWidth = 100
+quoteProps = "consistent"
+semi = false
+singleAttributePerLine = true
+singleQuote = false
+tabWidth = 4
+trailingComma = "none"
+useTabs = true

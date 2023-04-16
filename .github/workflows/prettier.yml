@@ -1,0 +1,27 @@
+name: prettier
+
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+      with:
+        # Make sure the actual branch is checked out when running on pull requests
+        ref: ${{ github.head_ref }}
+
+    - name: Install npm v8
+      run: npm i -g npm@8
+
+    - name: prettify code
+      uses: creyD/prettier_action@v4.3
+      with:
+        prettier_options: --write **/*.{js,md}
+        commit_message: prettify code
