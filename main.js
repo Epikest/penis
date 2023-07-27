@@ -12799,7 +12799,12 @@
 													"↵" == e &&
 														((a.textContent = "enter"),
 														a.classList.add("one-and-a-half"))
-												} else (a = ls.content.cloneNode(!0).firstElementChild).classList.add(1 === e.length ? "half" : "one")
+												} else
+													(a = ls.content.cloneNode(
+														!0
+													).firstElementChild).classList.add(
+														1 === e.length ? "half" : "one"
+													)
 												s.appendChild(a)
 											}),
 											e.$keyboard.appendChild(s)
